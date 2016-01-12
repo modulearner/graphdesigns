@@ -1,0 +1,204 @@
+{
+        "nodes":[{
+                    "id":"nnnnn1",
+                    "name":"Differential Equations",
+                    "edges": ["Non-linear ODEs","Special Functions","Linear ODEs","Calculus","PDEs","Functions as Vectors, d by dx as Matrix"]
+                 },{
+                    "id":"nnnnn2",
+                    "name":"Special Functions",
+                    "edges": ["Bessel"]
+                 },{
+                    "id":"nnnnn3",
+                    "name":"Bessel",
+                    "edges": []
+                 },{
+                    "id":"nnnnn4",
+                    "name":"Non-linear ODEs",
+                    "edges": ["Air Resistance","Methods (ODEs)"]
+                 },{
+                    "id":"nnnnn5",
+                    "name":"Air Resistance",
+                    "edges": []
+                 },{
+                    "id":"nnnnn6",
+                    "name":"Methods (ODEs)",
+                    "edges": ["Linear ODEs"]
+                 },{
+                    "id":"nnnnn7",
+                    "name":"Linear ODEs",
+                    "edges": []
+                 },{
+                    "id":"nnnnn8",
+                    "name":"Functions as Vectors, d by dx as Matrix",
+                    "edges": ["Schroedinger's Equational","Linear Algebra"]
+                 },{
+                    "id":"nnnnn9",
+                    "name":"Linear Algebra",
+                    "edges": ["Orthogonal Transformations","Linear Systems vs Matrix Equations","Eigenvalues/Eigenvectors","Systems of Springs"]
+                 },{
+                    "id":"nnnnn10",
+                    "name":"Orthogonal Transformations",
+                    "edges": ["Kinematics"]
+                 },{
+                    "id":"nnnnn11",
+                    "name":"Linear Systems vs Matrix Equations",
+                    "edges": ["Quantum Mechanics"]
+                 },{
+                    "id":"nnnnn12",
+                    "name":"Eigenvalues/Eigenvectors",
+                    "edges": ["Quantum Mechanics"]
+                 },{
+                    "id":"nnnnn13",
+                    "name":"Systems of Springs",
+                    "edges": ["Simple Harmonic Motion"]
+                 },{
+                    "id":"nnnnn14",
+                    "name":"PDEs",
+                    "edges": ["Separation of Variables","Navier Stokes"]
+                 },{
+                    "id":"nnnnn15",
+                    "name":"Separation of Variables",
+                    "edges": ["Schroedinger's Equation"]
+                 },{
+                    "id":"nnnnn16",
+                    "name":"Calculus",
+                    "edges": ["F=ma","Continuous Distributions","Differential Geometry","Transforms"]
+                 },{
+                    "id":"nnnnn17",
+                    "name":"Continuous Distributions",
+                    "edges": []
+                 },{
+                    "id":"nnnnn18",
+                    "name":"Transforms",
+                    "edges": ["Fourier Transforms","Legendre Transform"]
+                 },{
+                    "id":"nnnnn19",
+                    "name":"Fourier Transforms",
+                    "edges": ["Momentum Space","Methods (ODEs)","Signal Analysis"]
+                 },{
+                    "id":"nnnnn20",
+                    "name":"Momentum Space",
+                    "edges": []
+                 },{
+                    "id":"nnnnn21",
+                    "name":"Signal Analysis",
+                    "edges": []
+                 },{
+                    "id":"nnnnn22",
+                    "name":"Free Energy",
+                    "edges": ["Statistical Mechanics","Legendre Transform"]
+                 },{
+                    "id":"nnnnn23",
+                    "name":"Differential Geometry",
+                    "edges": ["Tangent Space","Symplectic Geometry","Manifolds","Diffeomorphisms","Curvature","General Relativity"]
+                 },{
+                    "id":"nnnnn24",
+                    "name":"Tangent Space",
+                    "edges": ["Vectors"]
+                 },{
+                    "id":"nnnnn25",
+                    "name":"Manifolds",
+                    "edges": ["Equivalence Principle"]
+                 },{
+                    "id":"nnnnn26",
+                    "name":"Diffeomorphisms",
+                    "edges": []
+                 },{
+                    "id":"nnnnn27",
+                    "name":"Curvature",
+                    "edges": ["Gauss-Bonnet Theorem"]
+                 },{
+                    "id":"nnnnn28",
+                    "name":"Gauss-Bonnet Theorem",
+                    "edges": ["Euler Characteristic","Topology"]
+                 },{
+                    "id":"nnnnn29",
+                    "name":"Euler Characteristic",
+                    "edges": ["Topology"]
+                 },{
+                    "id":"nnnnn30",
+                    "name":"Topology",
+                    "edges": ["Axioms of Topology","Topological Charge","Simplices","Homology","Genus","Covering Spaces"]
+                 },{
+                    "id":"nnnnn31",
+                    "name":"Axioms of Topology",
+                    "edges": []
+                 },{
+                    "id":"nnnnn32",
+                    "name":"Topological Charge",
+                    "edges": ["Field Theory"]
+                 },{
+                    "id":"nnnnn33",
+                    "name":"Simplices",
+                    "edges": ["Homology"]
+                 },{
+                    "id":"nnnnn34",
+                    "name":"Homology",
+                    "edges": ["Cohomology"]
+                 },{
+                    "id":"nnnnn35",
+                    "name":"Cohomology",
+                    "edges": []
+                 },{
+                    "id":"nnnnn36",
+                    "name":"Genus",
+                    "edges": []
+                 },{
+                    "id":"nnnnn37",
+                    "name":"Covering Spaces",
+                    "edges": ["Quantum Mechanics","Group Theory"]
+                 },{
+                    "id":"nnnnn38",
+                    "name":"Group Theory",
+                    "edges": ["Lie Groups","Axioms of Group Theory","Finite Groups"]
+                 },{
+                    "id":"nnnnn39",
+                    "name":"Lie Groups",
+                    "edges": ["Lie Algebras"]
+                 },{
+                    "id":"nnnnn40",
+                    "name":"Lie Algebras",
+                    "edges": ["Quantum Mechancis","Representations"]
+                 },{
+                    "id":"nnnnn41",
+                    "name":"Representations",
+                    "edges": ["Quantum Mechanics","Finite Groups"]
+                 },{
+                    "id":"nnnnn42",
+                    "name":"Finite Groups",
+                    "edges": ["Center, Commutator, Normal Subgroups","Quotient Spaces"]
+                 },{
+                    "id":"nnnnn43",
+                    "name":"Axioms of Group Theory",
+                    "edges": []
+                 },{
+                    "id":"nnnnn44",
+                    "name":"Center, Commutator, Normal Subgroups",
+                    "edges": []
+                 },{
+                    "id":"nnnnn45",
+                    "name":"Quotient Spaces",
+                    "edges": ["Goldstone's Theorem","Spacetime as a Quotient Space"]
+                 },{
+                    "id":"nnnnn46",
+                    "name":"Spacetime as a Quotient Space",
+                    "edges": []
+                 }
+        ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

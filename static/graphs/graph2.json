@@ -1,0 +1,198 @@
+{
+        "nodes":[{
+                    "id":"nn1",
+                    "name":"Electricity",
+                    "edges": ["Coulomb Force","Coulomb Potential",
+                "Wires,Rings, Plates, etc","Circuits","Field Lines","Linearity","E&M","Maxwell's Equations"]
+                 },{
+                    "id":"nn2",
+                    "name":"Coulomb Force",
+                    "edges": ["Types of Force"]
+                 },{
+                    "id":"nn3",
+                    "name":"Coulomb Potential",
+                    "edges": ["Potential"]
+                 },{
+                    "id":"nn4",
+                    "name":"Wires, Rings, Plates, etc",
+                    "edges": ["Resistors","Capacitors"]
+                 },{
+                    "id":"nn5",
+                    "name":"Circuits",
+                    "edges": ["Ohm's Law","Kirchoff's Law","Resistors","Capacitors","Inductors"]
+                 },{
+                    "id":"nn6",
+                    "name":"Inductors",
+                    "edges": ["Transformers","Faraday's Law","Wires, Solenoids, Coils, etc"]
+                 },{
+                    "id":"nn7",
+                    "name":"Linearity",
+                    "edges": ["Magnetism","Non-linearity"]
+                 },{
+                    "id":"nn8",
+                    "name":"Magnetism",
+                    "edges": ["Biot-Savart's Law","Magnetic Flux","Cyclotron Motion","Wires, Solenoids, Coils, etc","Monopoles","Maxwell's Equations","Ampere's Law","E&M"]
+                 },{
+                    "id":"nn9",
+                    "name":"Biot-Savart's Law",
+                    "edges": ["Types of Force"]
+                 },{
+                    "id":"nn10",
+                    "name":"Electric Motors",
+                    "edges": ["Faraday's Law","Magnetic Flux"]
+                 },{
+                    "id":"nn11",
+                    "name":"Magnetic Flux",
+                    "edges": []
+                 },{
+                    "id":"nn12",
+                    "name":"Cyclotron Motion",
+                    "edges": ["Circular Motion"]
+                 },{
+                    "id":"nn13",
+                    "name":"Wires, Solenoids, Coils, etc",
+                    "edges": []
+                 },{
+                    "id":"nn14",
+                    "name":"Maxwell's Equations",
+                    "edges": ["Gauss's Law","Faraday's Law","Ampere's Law","Quaternions","Div B is 0","Wave Equation","Galilean vs Lorentz Invariance"]
+                 },{
+                    "id":"nn15",
+                    "name":"Field Lines",
+                    "edges": ["Gauss's Law"]
+                 },{
+                    "id":"nn16",
+                    "name":"Gauss's Law",
+                    "edges": ["Coulomb Force"]
+                 },{
+                    "id":"nn17",
+                    "name":"Kirchoff's Law",
+                    "edges": []
+                 },{
+                    "id":"nn18",
+                    "name":"Resistors",
+                    "edges": []
+                 },{
+                    "id":"nn19",
+                    "name":"Capacitors",
+                    "edges": ["Potential"]
+                 },{
+                    "id":"nn20",
+                    "name":"Ohm's Law",
+                    "edges": []
+                 },{
+                    "id":"nn21",
+                    "name":"Transformers",
+                    "edges": []
+                 },{
+                    "id":"nn22",
+                    "name":"Field Cuvature",
+                    "edges": ["Tensors","Special Relativity"]
+                 },{
+                    "id":"nn23",
+                    "name":"Special Relativity",
+                    "edges": ["Galilean vs Lorentz Invariance"]
+                 },{
+                    "id":"nn24",
+                    "name":"Galilean vs Lorentz Invariance",
+                    "edges": []
+                 },{
+                    "id":"nn25",
+                    "name":"Quaternions",
+                    "edges": []
+                 },{
+                    "id":"nn26",
+                    "name":"Div B is 0",
+                    "edges": ["Monopoles"]
+                 },{
+                    "id":"nn27",
+                    "name":"Monopoles",
+                    "edges": []
+                 },{
+                    "id":"nn28",
+                    "name":"Speed of Light",
+                    "edges": ["Wave Equation"]
+                 },{
+                    "id":"nn29",
+                    "name":"Optics",
+                    "edges": ["Wave Equation","Lenses, Mirrors, Prisms, etc","Interferometry","Snell's Law","Fermat's Principle","Reflection and Refraction"]
+                 },{
+                    "id":"nn30",
+                    "name":"Interferometry",
+                    "edges": []
+                 },{
+                    "id":"nn31",
+                    "name":"Snell's Law",
+                    "edges": []
+                 },{
+                    "id":"nn32",
+                    "name":"Fermat's Principle",
+                    "edges": ["Variational Calculus"]
+                 },{
+                    "id":"nn33",
+                    "name":"Lenses, Mirrors, Prisms, etc",
+                    "edges": []
+                 },{
+                    "id":"nn34",
+                    "name":"Reflection and Refraction",
+                    "edges": ["Birefringence","Double Slit, Single Slit, Diffraction Grating, etc"]
+                 },{
+                    "id":"nn35",
+                    "name":"Birefringence",
+                    "edges": []
+                 },{
+                    "id":"nn36",
+                    "name":"Double Slit, Single Slit, Diffraction Grating, etc",
+                    "edges": []
+                 },{
+                    "id":"nn37",
+                    "name":"Radiation",
+                    "edges": ["Wave Equation", "Spectra",
+                            "Cherenkov","Brehmstrahlung"]
+                 },{
+                    "id":"nn38",
+                    "name":"Spectra",
+                    "edges": ["Quantum Mechanics"]
+                 },{
+                    "id":"nn39",
+                    "name":"Cherenkov",
+                    "edges": []
+                 },{
+                    "id":"nn40",
+                    "name":"Brehmstrahlung",
+                    "edges": []
+                 },{
+                    "id":"nn41",
+                    "name":"Birefringence",
+                    "edges": []
+                 },{
+                    "id":"nn42",
+                    "name":"Ampere's Law",
+                    "edges": []
+                 },{
+                    "id":"nn43",
+                    "name":"Faraday's Law",
+                    "edges": ["Magnetism","Electricity"]
+                 },{
+                    "id":"nn41",
+                    "name":"Birefringence",
+                    "edges": []
+                 }
+        ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -33,7 +33,15 @@ var convertGraph = function (data) {
 var cy = cytoscape({
   container: $('#cy'),
 
-  elements: convertGraph(graph1),
+  elements: convertGraph(bigGraph),
+
+  layout: {
+        name: 'breadthfirst',
+        // fit: true,
+        // padding: 30,
+
+    },
+
 
   style: [ // the stylesheet for the graph
     {
@@ -54,10 +62,6 @@ var cy = cytoscape({
       }
     }
   ],
-
-  layout: {
-    name: 'cose',
-  }
 
 });
 

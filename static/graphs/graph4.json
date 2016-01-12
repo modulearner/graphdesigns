@@ -1,0 +1,233 @@
+{
+        "nodes":[{
+                    "id":"nnnn1",
+                    "name":"Quantum Mechanics",
+                    "edges": ["Path Integral","QM Origin","Schroedinger's Equation","QM Axioms","Relativistic Quantum Mechanics","QM Angular Momentum","Condensed Matter Systems","Degenerate Systems"]
+                 },{
+                    "id":"nnnn2",
+                    "name":"Path Integral",
+                    "edges": ["Lagrangian Mechanics"]
+                 },{
+                    "id":"nnnn3",
+                    "name":"QM Origin",
+                    "edges": ["Photoelectric Effect","Black Body Radiation","Atomic Lines","Bohr Sommerfeld Quantization"]
+                 },{
+                    "id":"nnnn4",
+                    "name":"Photoelectric Effect",
+                    "edges": []
+                 },{
+                    "id":"nnnn5",
+                    "name":"Black Body Radiation",
+                    "edges": ["E&M","Statistical Mechanics"]
+                 },{
+                    "id":"nnnn6",
+                    "name":"Atomic Lines",
+                    "edges": ["Bohr Model"]
+                 },{
+                    "id":"nnnn7",
+                    "name":"Bohr Model",
+                    "edges": ["Hydrogen Atom","Bohr Sommerfeld Quantization"]
+                 },{
+                    "id":"nnnn8",
+                    "name":"Bohr Sommerfeld Quantization",
+                    "edges": ["Hamiltonian Dynamics"]
+                 },{
+                    "id":"nnnn9",
+                    "name":"Hydrogen Atom",
+                    "edges": ["Fine Splitting","Hyperfine Splitting","Spherical Symmetry"]
+                 },{
+                    "id":"nnnn10",
+                    "name":"Fine Splitting",
+                    "edges": ["Lamb Shift, Spin Orbit Coupling, Relativistic Corrections, etc"]
+                 },{
+                    "id":"nnnn11",
+                    "name":"Lamb Shift, Spin Orbit Coupling, Relativistic Corrections,etc",
+                    "edges": ["Hyperfine Splitting"]
+                 },{
+                    "id":"nnnn12",
+                    "name":"Hyperfine Splitting",
+                    "edges": []
+                 },{
+                    "id":"nnnn13",
+                    "name":"Spherical Symmetry",
+                    "edges": ["Spherical Harmonics","Schroedinger's Equation"]
+                 },{
+                    "id":"nnnn14",
+                    "name":"Spherical Harmonics",
+                    "edges": []
+                 },{
+                    "id":"nnnn15",
+                    "name":"Schroedinger's Equation",
+                    "edges": ["Hamilton's Equations","Linearity","Density Matrix","Chemistry","Heisenberg Picture","Simple Harmonic Oscillator (QM)"]
+                 },{
+                    "id":"nnnn16",
+                    "name":"Heisenberg Picture",
+                    "edges": ["Symplectic Geometry"]
+                 },{
+                    "id":"nnnn17",
+                    "name":"Simple Harmonic Oscillator (QM)",
+                    "edges": ["Bose Statistics","Hermite Polynomials","Ladder Operators","Ground State Energy"]
+                 },{
+                    "id":"nnnn18",
+                    "name":"Ground State Energy",
+                    "edges": []
+                 },{
+                    "id":"nnnn19",
+                    "name":"Hermite Polynomials",
+                    "edges": []
+                 },{
+                    "id":"nnnn20",
+                    "name":"Bose Statistics",
+                    "edges": ["Lasers","Bose-Einstein Condensate"]
+                 },{
+                    "id":"nnnn21",
+                    "name":"Ladder Operators",
+                    "edges": []
+                 },{
+                    "id":"nnnn22",
+                    "name":"Density Matrix",
+                    "edges": ["Statistical Mechanics","Many Particles","Reduced Density Matrix"]
+                 },{
+                    "id":"nnnn23",
+                    "name":"Many Particles",
+                    "edges": ["Statistical Mechanics"]
+                 },{
+                    "id":"nnnn24",
+                    "name":"Reduced Density Matrix",
+                    "edges": ["Entanglement"]
+                 },{
+                    "id":"nnnn25",
+                    "name":"Entanglement",
+                    "edges": ["Bell's Inequality"]
+                 },{
+                    "id":"nnnn26",
+                    "name":"Bell's Inequality",
+                    "edges": []
+                 },{
+                    "id":"nnnn27",
+                    "name":"Degenerate Systems",
+                    "edges": ["Fermi Statistics","Statistical Mechanics","Bose Statistics"]
+                 },{
+                    "id":"nnnn28",
+                    "name":"Bose-Einstein Condensate",
+                    "edges": []
+                 },{
+                    "id":"nnnn29",
+                    "name":"Lasers",
+                    "edges": ["Interferometry"]
+                 },{
+                    "id":"nnnn30",
+                    "name":"Fermi Statistics",
+                    "edges": ["Condensed Matter Systems"]
+                 },{
+                    "id":"nnnn31",
+                    "name":"Condensed Matter Systems",
+                    "edges": ["Super Conductivity","Band Gaps & Conductivity","Ionic Lattices and Bloch's Theorem"]
+                 },{
+                    "id":"nnnn32",
+                    "name":"Band Gaps & Conductivity",
+                    "edges": []
+                 },{
+                    "id":"nnnn33",
+                    "name":"Ionic Lattices and Bloch's Theorem",
+                    "edges": []
+                 },{
+                    "id":"nnnn34",
+                    "name":"QM Axioms",
+                    "edges": ["Phase Space","Born Rule and Many Worlds"]
+                 },{
+                    "id":"nnnn35",
+                    "name":"Born Rule and Many Worlds",
+                    "edges": []
+                 },{
+                    "id":"nnnn36",
+                    "name":"Phase Space",
+                    "edges": ["Momentum Space vs Position Space"]
+                 },{
+                    "id":"nnnn37",
+                    "name":"Momentum Space vs Position Space",
+                    "edges": []
+                 },{
+                    "id":"nnnn38",
+                    "name":"QM Angular Momentum",
+                    "edges": ["SO(2)","SO(3)","Representation Theory","Lie Algebras and Groups"]
+                 },{
+                    "id":"nnnn39",
+                    "name":"Lie Algebras and Groups",
+                    "edges": []
+                 },{
+                    "id":"nnnn40",
+                    "name":"SO(2)",
+                    "edges": ["SO(3)","J plus/minus, J z","Spin"]
+                 },{
+                    "id":"nnnn41",
+                    "name":"SO(3)",
+                    "edges": []
+                 },{
+                    "id":"nnnn42",
+                    "name":"J plus/minus, J z",
+                    "edges": []
+                 },{
+                    "id":"nnnn43",
+                    "name":"Spin",
+                    "edges": ["Spinors","Zeeman Effect"]
+                 },{
+                    "id":"nnnn44",
+                    "name":"Zeeman Effect",
+                    "edges": []
+                 },{
+                    "id":"nnnn45",
+                    "name":"Representation Theory",
+                    "edges": ["Tensor Operators","Clebsch-Gordan Coefficients","Wigner-Eckart Theorem"]
+                 },{
+                    "id":"nnnn46",
+                    "name":"Tensor Operators",
+                    "edges": []
+                 },{
+                    "id":"nnnn47",
+                    "name":"Clebsch-Gordan Coefficients",
+                    "edges": []
+                 },{
+                    "id":"nnnn48",
+                    "name":"Wigner-Eckart Theorem",
+                    "edges": []
+                 },{
+                    "id":"nnnn49",
+                    "name":"Relativistic Quantum Mechanics",
+                    "edges": ["Dirac Equation"]
+                 },{
+                    "id":"nnnn50",
+                    "name":"Dirac Equation",
+                    "edges": ["Clifford Algebra","Anti-Particles"]
+                 },{
+                    "id":"nnnn51",
+                    "name":"Anti-Particles",
+                    "edges": []
+                 },{
+                    "id":"nnnn52",
+                    "name":"Clifford Algebra",
+                    "edges": ["Quaternions"]
+                 },
+                 {
+                    "id":"nnnn53",
+                    "name": "Super Conductivity",
+                    "edges": []
+                 }
+        ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
