@@ -1,23 +1,39 @@
+var idU = 0;
+
+var Edge = function (e1, e2) {
+    this.data = {
+        id: "e"+idU,
+        source: e1,
+        target: e2
+
+    } 
+}
+
+var convertGraph = function (data) {
+    graph = {
+        nodes: [],
+        edges: []
+    }
+    var nodes = data["nodes"];
+    for (node in nodes){
+        
+        graph.nodes.push({data: { id: nodes[node]["name"] }});
+
+        for (edge in nodes[node].edges){
+            graph.edges.push(new Edge(nodes[node].name, nodes[node].edges[edge]));
+            idU++;
+        }
+
+    }
+
+    return graph
+}
 
 
 var cy = cytoscape({
   container: $('#cy'),
 
-  elements: [ // list of graph elements to start with
-    { // node a
-      data: { id: 'a' }
-    },
-    { // node b
-      data: { id: 'b' }
-    },
-    {
-        data: {id: 'c'} 
-    },
-    { // edge ab
-      data: { id: 'ab', source: 'a', target: 'b' }
-    },
-
-  ],
+  elements: convertGraph(graph1),
 
   style: [ // the stylesheet for the graph
     {
@@ -40,8 +56,7 @@ var cy = cytoscape({
   ],
 
   layout: {
-    name: 'grid',
-    rows: 3
+    name: 'cose',
   }
 
 });
